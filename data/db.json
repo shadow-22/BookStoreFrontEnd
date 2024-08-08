@@ -1,0 +1,74 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "author": "George Orwell",
+        "isbn": "978-0451524935",
+        "publishedDate": "1949-06-08",
+        "title": "1984"
+      },
+      {
+        "id": 2,
+        "author": "Harper Lee",
+        "isbn": "978-0060935467",
+        "publishedDate": "1960-07-11",
+        "title": "To Kill a Mockingbird"
+      },
+      {
+        "id": 3,
+        "author": "J.R.R. Tolkien",
+        "isbn": "978-0547928227",
+        "publishedDate": "1954-07-29",
+        "title": "The Fellowship of the Ring"
+      },
+      {
+        "id": 4,
+        "author": "F. Scott Fitzgerald",
+        "isbn": "978-0743273565",
+        "publishedDate": "1925-04-10",
+        "title": "The Great Gatsby"
+      },
+      {
+        "id": 5,
+        "author": "Jane Austen",
+        "isbn": "978-1503290563",
+        "publishedDate": "1813-01-28",
+        "title": "Pride and Prejudice"
+      },
+      {
+        "id": 6,
+        "author": "Herman Melville",
+        "isbn": "978-1503280786",
+        "publishedDate": "1851-11-14",
+        "title": "Moby-Dick"
+      },
+      {
+        "id": 7,
+        "author": "Leo Tolstoy",
+        "isbn": "978-1853260629",
+        "publishedDate": "1869-01-01",
+        "title": "War and Peace"
+      },
+      {
+        "id": 8,
+        "author": "Mary Shelley",
+        "isbn": "978-0486282114",
+        "publishedDate": "1818-01-01",
+        "title": "Frankenstein"
+      },
+      {
+        "id": 9,
+        "author": "Gabriel Garcia Marquez",
+        "isbn": "978-0060883287",
+        "publishedDate": "1967-05-30",
+        "title": "One Hundred Years of Solitude"
+      },
+      {
+        "id": 10,
+        "author": "Miguel de Cervantes",
+        "isbn": "978-0060934347",
+        "publishedDate": "1605-01-16",
+        "title": "Don Quixote"
+      }
+    ]
+  }
