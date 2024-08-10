@@ -87,6 +87,12 @@
       "published_date": "800 BC",
       "title": "The Odyssey",
       "summary": "An ancient Greek epic poem that follows Odysseus' ten-year journey home after the Trojan War."
+    },
+    {
+      "id": "39f5",
+      "title": "Pericle's Book",
+      "summary": "A new book featuring my new job.",
+      "author": "mario"
     }
   ]
 }
