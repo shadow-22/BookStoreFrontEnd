@@ -1,74 +1,92 @@
 {
-    "books": [
-      {
-        "id": 1,
-        "author": "George Orwell",
-        "isbn": "978-0451524935",
-        "publishedDate": "1949-06-08",
-        "title": "1984"
-      },
-      {
-        "id": 2,
-        "author": "Harper Lee",
-        "isbn": "978-0060935467",
-        "publishedDate": "1960-07-11",
-        "title": "To Kill a Mockingbird"
-      },
-      {
-        "id": 3,
-        "author": "J.R.R. Tolkien",
-        "isbn": "978-0547928227",
-        "publishedDate": "1954-07-29",
-        "title": "The Fellowship of the Ring"
-      },
-      {
-        "id": 4,
-        "author": "F. Scott Fitzgerald",
-        "isbn": "978-0743273565",
-        "publishedDate": "1925-04-10",
-        "title": "The Great Gatsby"
-      },
-      {
-        "id": 5,
-        "author": "Jane Austen",
-        "isbn": "978-1503290563",
-        "publishedDate": "1813-01-28",
-        "title": "Pride and Prejudice"
-      },
-      {
-        "id": 6,
-        "author": "Herman Melville",
-        "isbn": "978-1503280786",
-        "publishedDate": "1851-11-14",
-        "title": "Moby-Dick"
-      },
-      {
-        "id": 7,
-        "author": "Leo Tolstoy",
-        "isbn": "978-1853260629",
-        "publishedDate": "1869-01-01",
-        "title": "War and Peace"
-      },
-      {
-        "id": 8,
-        "author": "Mary Shelley",
-        "isbn": "978-0486282114",
-        "publishedDate": "1818-01-01",
-        "title": "Frankenstein"
-      },
-      {
-        "id": 9,
-        "author": "Gabriel Garcia Marquez",
-        "isbn": "978-0060883287",
-        "publishedDate": "1967-05-30",
-        "title": "One Hundred Years of Solitude"
-      },
-      {
-        "id": 10,
-        "author": "Miguel de Cervantes",
-        "isbn": "978-0060934347",
-        "publishedDate": "1605-01-16",
-        "title": "Don Quixote"
-      }
-    ]
-  }
+  "books": [
+    {
+      "id": "1",
+      "author": "George Orwell",
+      "isbn": "978-0451524935",
+      "publishedDate": "1949-06-08",
+      "title": "1984",
+      "summary": "A dystopian novel set in a totalitarian society ruled by Big Brother."
+    },
+    {
+      "id": "2",
+      "author": "Harper Lee",
+      "isbn": "978-0060935467",
+      "publishedDate": "1960-07-11",
+      "title": "To Kill a Mockingbird",
+      "summary": "A novel about racial injustice in the Deep South, seen through the eyes of a young girl."
+    },
+    {
+      "id": "3",
+      "author": "J.R.R. Tolkien",
+      "isbn": "978-0547928227",
+      "publishedDate": "1954-07-29",
+      "title": "The Fellowship of the Ring",
+      "summary": "The first part of an epic fantasy tale about the struggle to destroy the One Ring."
+    },
+    {
+      "id": "4",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "978-0743273565",
+      "publishedDate": "1925-04-10",
+      "title": "The Great Gatsby",
+      "summary": "A story about the mysterious millionaire Jay Gatsby and his obsession with Daisy Buchanan."
+    },
+    {
+      "id": "5",
+      "author": "Jane Austen",
+      "isbn": "978-1503290563",
+      "publishedDate": "1813-01-28",
+      "title": "Pride and Prejudice",
+      "summary": "A classic romance novel exploring the manners and matrimonial machinations among the British gentry."
+    },
+    {
+      "id": "6",
+      "author": "Herman Melville",
+      "isbn": "978-1503280786",
+      "publishedDate": "1851-11-14",
+      "title": "Moby-Dick",
+      "summary": "An epic tale of obsession and revenge, following Captain Ahab's quest to kill the white whale."
+    },
+    {
+      "id": "7",
+      "author": "Leo Tolstoy",
+      "isbn": "978-1853260629",
+      "publishedDate": "1869-01-01",
+      "title": "War and Peace",
+      "summary": "A historical novel that chronicles the lives of five aristocratic families during the Napoleonic Wars."
+    },
+    {
+      "id": "8",
+      "author": "Mary Shelley",
+      "isbn": "978-0486282114",
+      "publishedDate": "1818-01-01",
+      "title": "Frankenstein",
+      "summary": "A gothic novel that tells the story of Victor Frankenstein and the monster he creates."
+    },
+    {
+      "id": "9",
+      "author": "Gabriel Garcia Marquez",
+      "isbn": "978-0060883287",
+      "publishedDate": "1967-05-30",
+      "title": "One Hundred Years of Solitude",
+      "summary": "A magical realist novel that tells the multi-generational story of the Buendía family."
+    },
+    {
+      "id": "10",
+      "author": "Miguel de Cervantes",
+      "isbn": "978-0060934347",
+      "publishedDate": "1605-01-16",
+      "title": "Don Quixote",
+      "summary": "A classic Spanish novel about a man who becomes a knight-errant to revive chivalry and sets out on whimsical adventures."
+    },
+    {
+      "id": "11",
+      "author": "Homer",
+      "isbn": "9780140268867",
+      "published_date": "800 BC",
+      "title": "The Odyssey",
+      "summary": "An ancient Greek epic poem that follows Odysseus' ten-year journey home after the Trojan War."
+    }
+  ]
+}
