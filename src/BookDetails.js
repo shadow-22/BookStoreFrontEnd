@@ -4,11 +4,11 @@ import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const BookDetails = () => {
     const { id } = useParams();
-    const { data:book, error, isPending } = useFetch('http://localhost:3001/books/' + id);
+    const { data:book, error, isPending } = useFetch('/jaxrs-api/api/books/' + id);
     const history = useHistory();
 
     const handleClick = () => {
-        fetch('http://localhost:3001/books/' + book.id, {
+        fetch('/jaxrs-api/api/books/' + book.id, {
             method: 'DELETE'
         }).then(() => {
             history.push('/');
