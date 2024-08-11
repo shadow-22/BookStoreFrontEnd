@@ -3,17 +3,17 @@ import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
 const AddBook = () => {
     const [title, setTitle] = useState('');
-    const [summary, setsummary] = useState('');
+    const [isbn, setIsbn] = useState('');
     const [author, setAuthor] = useState('mario');
     const [isPending, setIsPending] = useState(false);
     const history = useHistory();
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const book = { title, summary, author };
+        const book = { title, isbn, author };
         setIsPending(true);
         console.log(book);
-        fetch('http://localhost:3001/books', {
+        fetch('/jaxrs-api/api/books', {
             method: 'POST',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(book)
@@ -36,11 +36,11 @@ const AddBook = () => {
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                 />
-                <label>book summary:</label>
+                <label>book isbn:</label>
                 <textarea
                     required
-                    value={summary}
-                    onChange={(e) => setsummary(e.target.value)}
+                    value={isbn}
+                    onChange={(e) => setIsbn(e.target.value)}
                 ></textarea>
                 <label>book author:</label>
                 <select
