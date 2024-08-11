@@ -2,7 +2,7 @@ import BookList from './BookList.js';
 import useFetch from './useFetch.js';
 
 const Home = () => {
-    const { data: books, isPending, error } = useFetch('http://localhost:3001/books');
+    const { data: books, isPending, error } = useFetch('/jaxrs-api/api/books');
 
     return (
         <div className="home">
