@@ -10,14 +10,11 @@ const SearchResults = () => {
         const query = params.get('query')?.toLowerCase();
 
         if (query) {
-            fetch('http://localhost:3001/books')
+            fetch(`/jaxrs-api/api/books/search?name=${encodeURIComponent(query)}`)
                 .then(response => response.json())
                 .then(data => {
-                    // Manually filter the data based on the query
-                    const filteredBooks = data.filter(book => 
-                        book.title.toLowerCase().includes(query)
-                    );
-                    setResults(filteredBooks);
+                    console.log("Search results:", data);
+                    setResults(data);
                 })
                 .catch(error => console.error('Error fetching search results:', error));
         }
