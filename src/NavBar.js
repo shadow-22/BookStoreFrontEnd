@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import Search from './Search';
 import Login from './Login';
 import Logout from './Logout';
+import Test from './Test';
 
 const NavBar = () => {
     return (
@@ -19,6 +20,9 @@ const NavBar = () => {
             </div>
             <div className="logout">
                 <Logout />
+            </div>
+            <div className="test">
+                <Test />
             </div>
         </nav>
     );
