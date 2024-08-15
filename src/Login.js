@@ -15,12 +15,20 @@ const Login = () => {
         });
   
         if (response.ok) {
-          const data = await response.json();
-          const token = data.token; // Assuming your API returns the token under 'token' key
-          localStorage.setItem('jwtToken', token); // Store token in local storage
-          alert('Login successful!');
+            const authHeader = response.headers.get('Authorization');
+            const token = authHeader && authHeader.split(' ')[1]; 
+            
+            if (token) {
+                localStorage.setItem('jwtToken', token); 
+                alert('Login successful!');
+                console.log("JWT: " + token);
+            } else {
+                alert('Token not found in the response!');
+            }
+        } else if (response.status === 401) {
+            alert('Invalid credentials!');
         } else {
-          alert('Login failed!');
+            alert('Login failed!');
         }
       } catch (error) {
         console.error('Error during login:', error);

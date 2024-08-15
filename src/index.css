@@ -140,3 +140,18 @@
 .login-button button:hover {
   background: #e0245e; /* Slightly darker shade on hover */
 }
+
+/* CSS for the Logout button */
+.logout-button {
+  background: #f1356d;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 8px; /* Add a small margin to separate it from the Login button */
+}
+
+.logout-button:hover {
+  background-color: #d12b57; /* Darker shade for hover */
+}

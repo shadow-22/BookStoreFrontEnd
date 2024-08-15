@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Search from './Search';
 import Login from './Login';
+import Logout from './Logout';
 
 const NavBar = () => {
     return (
@@ -15,6 +16,9 @@ const NavBar = () => {
             </div>
             <div className="login">
                 <Login />
+            </div>
+            <div className="logout">
+                <Logout />
             </div>
         </nav>
     );
