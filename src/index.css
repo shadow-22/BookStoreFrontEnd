@@ -32,6 +32,10 @@
   margin-left:auto;
 }
 
+.navbar .login {
+  margin-left:auto;
+}
+
 
 .content {
   max-width: 600px;
@@ -120,4 +124,19 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;  
+}
+
+/* Login Button */
+.login-button button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.login-button button:hover {
+  background: #e0245e; /* Slightly darker shade on hover */
 }

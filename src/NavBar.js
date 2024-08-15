@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Search from './Search';
+import Login from './Login';
 
 const NavBar = () => {
     return (
@@ -11,6 +12,9 @@ const NavBar = () => {
             </div>
             <div className="search-nav">
                 <Search />                
+            </div>
+            <div className="login">
+                <Login />
             </div>
         </nav>
     );
