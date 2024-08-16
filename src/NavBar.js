@@ -24,6 +24,9 @@ const NavBar = () => {
             <div className="test">
                 <Test />
             </div>
+            <div className="searchBooksGoogle">
+                <Link to='/searchBooks'>Search Google</Link>
+            </div>
         </nav>
     );
 }

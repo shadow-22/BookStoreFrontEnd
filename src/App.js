@@ -5,6 +5,7 @@ import Home from './Home';
 import AddBook from './AddBook';
 import BookDetails from './BookDetails';
 import SearchResults from './SearchResults';
+import BookSearch from './BookSearch';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/search">
               <SearchResults />
+            </Route>
+            <Route path="/searchBooks">
+             <BookSearch />
             </Route>
           </Switch>
         </div>
